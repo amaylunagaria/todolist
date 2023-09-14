@@ -2,7 +2,7 @@ html {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(65deg, #0c2d58 20%, #395579 60%);
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
   font-family: "Anonymous Pro", monospace;
 }
 
