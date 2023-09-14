@@ -3,7 +3,6 @@ html {
   background-image: -webkit-linear-gradient(65deg, #0c2d58 20%, #395579 60%);
   background-repeat: no-repeat;
   height: 100%;
-  min-height: 1000px;
   font-family: "Anonymous Pro", monospace;
 }
 
