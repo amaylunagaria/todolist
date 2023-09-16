@@ -1,5 +1,5 @@
 html {
-  background-color: #E4E9FD;
+  background-color: #e4e9fd;
   background-image: -webkit-linear-gradient(65deg, #0c2d58 20%, #395579 60%);
   background-repeat: no-repeat;
   min-height: 1000px;
@@ -28,14 +28,14 @@ h1 {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .item:last-child {
   border-bottom: 0;
 }
 
-input:checked+p {
+input:checked + p {
   text-decoration: line-through;
   text-decoration-color: #0c2d58;
 }
