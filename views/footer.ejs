@@ -1,9 +1,29 @@
-
-
 </body>
 
 <footer>
-  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        console.log(document.getElementById('taskToBeAdded').value);
+        document.getElementById('submitButton').addEventListener('click', function () {
+            if (document.getElementById('taskToBeAdded').value === "") {
+                Swal.fire({
+                    title: "Empty Task",
+                    text: "What are you going to do with an empty task?",
+                    icon: "warning",
+                    showCancelButton: false,
+                    confirmButtonText: "OK",
+                });
+            } else {
+                Swal.fire({
+                    title: 'Success',
+                    text: 'Task successfully added',
+                    icon: 'success',
+                    confirmButtonText: "OK",
+                    showConfirmButton: false,
+                });
+            }
+        });
+    </script>
 </footer>
 
 </html>
